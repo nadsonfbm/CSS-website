@@ -1,0 +1,27 @@
+.header {
+    color: purple;
+    font-size: 50px;
+}
+#h1 {
+    color: blue;
+    font-size: 15px;
+}
+
+#h2 {
+    color: #22c522;
+    font-size: 20px;
+}
+
+#h3 {
+    color: rgb(199, 41, 41);
+    font-size: 25px;
+}
+
+#h4 {
+    color: hsl(60, 72%, 46%);
+    font-size: 30px;
+}
+
+.headings {
+    color: orange;
+}
