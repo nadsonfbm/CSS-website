@@ -9,74 +9,62 @@
         <title>Main CSS Project</title>
     </head>
     <body>
-        <div class="background1">
-            <header class="logoandheaders">
-                    <div class="logo">Nadson's CSS Site</div>
-                    <div class="hd1"><a href="./hobbies/hobbies.html">Hobbies</a></div>
-                    <div class="hd2"><a href="./games/games.html">Games</a></div>
-                    <div class="hd3"><a href="./movies/movies.html">Movies</a></div>
-                    <div class="hd4"><a href="./books/books.html">Books</a></div>
-            </header>
+        <header>
+            <section class="header-top">
+                <h3>Nadson's CSS Website</h3>
+                <nav>
+                    <li><a href="./hobbies/hobbies.html">Hobbies</a></li>
+                    <li><a href="./games/games.html">Games</a></li>
+                    <li><a href="./movies/movies.html">Movies</a></li>
+                    <li><a href="./books/books.html">Books</a></li>
+                </nav>
+            </section>
+        </header>
         <main>
-            <section>
-                <h1>
-                    <div class="h1"> 
-                        <div class="texts">
-                            <div class="title">The 2.0 Nadson's Website</div>
-                            <div class="secondarytext">Hey everyone! What's up? Now we can check it out my hobbies and favorites stuff but in a pretty way so that doesn't look like a 5 year old have done it. Click on the link below to sign up and receive some updates regularly about my life! Uhuuull!</div>
-                            <div class="signup"><a href="./signup/signup.html">Sign Up</a></div>
-                        </div>
-                        <div>
-                            <img class="h1picture" src="./images/h1picture.jpeg" alt="H1 Picture">
-                        </div>
-                    </div>   
-                </h1>
-            </section>
-        </div>
-            <section>
-                <h2>
-                    <div class="h2">
-                        <div class="sub-title">
-                            <p>Check out my lists!</p>
-                        </div>
-                        <div class="covers">
-                            <img class="hobbiescover" src="./images/dogwalking.jpeg" alt="Hobbies cover"><a href=""></a>
-                            <img class="gamescover" src="./images/lotsofgames.jpeg" alt="Games cover">
-                            <img class="moviescover" src="./images/moviesshelf.jpeg" alt="Movies cover">
-                            <img class="bookscover" src="./images/booksshelf.jpeg" alt="Books cover">
-                        </div>
-                        <div class="webpages">
-                            <div class="hobbies"><a href="./hobbies/hobbies.html">Hobbies</a></div>
-                            <div class="games"><a href="./games/games.html">Games</a></div>
-                            <div class="movies"><a href="./movies/movies.html">Movies</a></div>
-                            <div class="books"><a href="./books/books.html">Books</a></div>
-                        </div>
-                    </div>
-                </h2>
-            </section>
-        <section>
-            <h3>
-                <div class="quotesection">
-                    <div class="quotetext">
-                        This is the best website i've ever visited. Full of curiosities of this great person called Nadson. He is brilliant and i feel that he was born to do this. Never seen anything like this. Credits also to his teacher that tauth him very well! Anxious for more updates in here. Dont't forget to sign up as well!
-                        <p>
-                            - Nadson's Mother
-                        </p>
-                    </div>
+            <section class="header-main">
+                <div id="header-text">
+                    <h1>The 2.0 Nadson's Website</h1>
+                    <p>Hey everyone! What's up? Now we can check it out my hobbies and favorites stuff but in a pretty way so that doesn't look like a 5 year old have done it.
+                        Click on the link below to sign up and receive some updates regularly about my life! Uhuuull!</p>
+                    <button id="sign-up-btn-blue"><a href="./signup/signup.html">Sign Up</a></button>
                 </div>
-            </h3>
-        </section>
-            <h4> 
-                <div class="h4background">
-                    <div class="title2">Haven't signed up? Now it's time! Click on the "Sign Up" button so you don't miss any updates from our website!</div>
-                    <div class="signup2"><a href="./signup/signup.html">Sign Up</a></div>
+                <img id="dall-e-link" src="./images/h1picture.jpeg" alt="H1 Picture">
+            </section>
+            <section class="main-content">
+                <h2>Check out my lists!</h2>
+                <div id="picture-row">
+                    <figure>
+                        <a href="./hobbies/hobbies.html"><img class="small-picture" src="./images/dogwalking.jpeg" alt="Hobbies cover"></a>
+                        <figcaption>Hobbies</figcaption>
+                    </figure>
+                    <figure>
+                        <a href="./games/games.html"><img class="small-picture" src="./images/lotsofgames.jpeg" alt="Games cover"></a>
+                        <figcaption>Games</figcaption>
+                    </figure>
+                    <figure>
+                        <a href="./movies/movies.html"><img class="small-picture" src="./images/moviesshelf.jpeg" alt="Movies cover"></a>
+                        <figcaption>Movies</figcaption>
+                    </figure>
+                    <figure>
+                        <a href="./books/books.html"><img class="small-picture" src="./images/booksshelf.jpeg" alt="Books cover"></a>
+                        <figcaption>Books</figcaption>
+                    </figure>
                 </div>
-            </h4>
+            </section>
+            <section class="grey-content">
+                <blockquote>This is the best website i've ever visited. Full of curiosities of this great person called Nadson. He is brilliant and i feel that he was born to do this. Never seen anything like this. Credits also to his teacher that tauth him very well! Anxious for more updates in here. Dont't forget to sign up as well!</blockquote>
+                <h4 id="author">- Nadson's Mother</h4>
+            </section>
+            <section class="blue-banner">
+                <div>
+                    <h4>Haven't signed up? Now it's time!</h4>
+                    <p>Click on the "Sign Up" button so you don't miss any updates from our website!</p>
+                </div>
+                <button>Sign Up</button>
+            </section>
         </main>
-        <div class="footer">
-            <footer>
-                © Copyright November 2022 Nadson Fanckin Bueno Mendes
-            </footer>
-        </div>
+        <footer>
+            <h5>© Copyright November 2022 Nadson Fanckin Bueno Mendes</h5>
+        </footer>
     </body>
 </html>
