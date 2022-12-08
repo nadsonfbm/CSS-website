@@ -1,3 +1,3 @@
 # CSS-website
 
-https://nadsonfbm.github.io/CSS-website/index.html
+https://nadsonfbm.github.io/CSS-website/
